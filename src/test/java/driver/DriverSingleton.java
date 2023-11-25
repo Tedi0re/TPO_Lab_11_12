@@ -17,7 +17,6 @@ public class DriverSingleton {
                 switch (System.getProperty("browser")){
                     case "chrome":{
                         driver = new ChromeDriver();
-
                     }
                     case "edge":{
                         driver = new EdgeDriver();
